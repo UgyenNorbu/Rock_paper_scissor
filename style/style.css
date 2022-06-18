@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(155, 187, 176);
+   
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: beige;
+    margin: 25px;
+    align-items: center;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 550px;
+}
+
+.user {
+    background-color: bisque;
+}
+
+.result {
+    background-color: rgb(91, 137, 230);
+}
+
+.computer {
+    background-color: rgb(241, 156, 157);
+}
